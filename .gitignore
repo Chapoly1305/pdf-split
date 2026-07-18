@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Output / scratch
+out/
+output/
+*.tmp
+
+# OS
+.DS_Store
