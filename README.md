@@ -61,6 +61,15 @@ page each get their own file containing that page.
 Pages before the first bookmark (cover, legal, table of contents) are included in the
 first file.
 
+## Tests
+
+```bash
+python tests/test_split.py     # or: pytest
+```
+
+Covers the page-range logic, including the regression that a chapter's last
+section stops at the next chapter instead of running to the end of the document.
+
 ## Requirements
 
 - Python 3.7+
